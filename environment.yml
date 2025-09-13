@@ -1,0 +1,21 @@
+name: brca-survival
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scikit-survival
+  - lifelines
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - statsmodels
+  - pyarrow
+  - tqdm
+  - pip
+  - pip:
+      - shap
