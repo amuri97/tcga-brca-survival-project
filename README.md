@@ -64,7 +64,7 @@ repo/
 - Log parameters and metrics in notebooks (or MLflow if added later)
 
 ## Author
-- Your Name — Affiliation — 2025-09-12
+- Amith Murikinati — Affiliation — 2025-09-12
 
 ## License
 [MIT](LICENSE)
