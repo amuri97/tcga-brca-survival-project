@@ -34,3 +34,13 @@ data_raw/**
 # Reports
 reports/figs/*
 reports/tables/*
+
+# data (raw + large artifacts)
+data_raw/
+*.parquet
+*.tar.gz
+*.zip
+
+# misc
+*.log
+.ipynb_checkpoints/
