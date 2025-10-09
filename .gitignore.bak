@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data
+data_raw/
+data_raw/**
+
+# Large/intermediate artifacts
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Reports
+reports/figs/*
+reports/tables/*
+
+# data (raw + large artifacts)
+data_raw/
+*.parquet
+*.tar.gz
+*.zip
+
+# misc
+*.log
+.ipynb_checkpoints/
+!data_raw/gdc/manifest_tcga_brca_star_counts_primary.txt
+data_raw/*
+!data_raw/gdc/
+!data_raw/gdc/clinical/
+!data_raw/gdc/clinical/clinical.tsv
+!data_raw/gdc/clinical/follow_up.tsv
+
+# allowlist specific small raw files we track
+!data_raw/gdc/
+!data_raw/gdc/manifest_tcga_brca_star_counts_primary.txt
+!data_raw/gdc/clinical/
+!data_raw/gdc/clinical/clinical.tsv
+!data_raw/gdc/clinical/follow_up.tsv

@@ -1,0 +1,7 @@
+DATE: 2025-09-19
+Cohort: TCGA-BRCA | Sample Type: Primary Tumor (01) | Workflow: STAR - Counts | File: TSV
+Command:
+C:\Users\mailt\Downloads\gdc-client\gdc-client-inside\gdc-client.exe download ^
+  --manifest C:\Users\mailt\Desktop\DSprojects2025\tcga-brca-survival-project\data_raw\gdc\manifest_tcga_brca_star_counts_primary.txt ^
+  --dir C:\Users\mailt\Desktop\DSprojects2025\tcga-brca-survival-project\data_raw\gdc_star_counts_primary ^
+  --no-segment-md5
