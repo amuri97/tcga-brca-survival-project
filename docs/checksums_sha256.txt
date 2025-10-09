@@ -1,1 +1,2 @@
 5b25cf9640db25c26178894ab852a9a3dc16d247ed99b0ecbac213fbe8425236 *data_raw/gdc/manifest_tcga_brca_star_counts_primary.txt
+6d4683477d6b37a2d7edbedc0df610f67bc456f99e5e1bef6219f37b633a55f7 *data_raw/metabric/cbioportal/brca_metabric.tar.gz
